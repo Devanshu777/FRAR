@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FRAR</string>
+    <string name="type_your_email">Type your Email</string>
+    <string name="type_your_password">Type Your Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? SIGN UP</string>
+</resources>
