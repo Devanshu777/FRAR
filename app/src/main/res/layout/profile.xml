@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="55dp"
-            android:text="SignOut"
+            android:text="@string/signout"
             app:layout_constraintEnd_toEndOf="@+id/soUserEmail"
             app:layout_constraintStart_toStartOf="@+id/soUserEmail"
             app:layout_constraintTop_toBottomOf="@+id/soUserEmail" />

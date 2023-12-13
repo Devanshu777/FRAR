@@ -25,7 +25,6 @@ class HomePageActivity : AppCompatActivity() {
 
                 else -> {
 
-
                 }
 
             }
