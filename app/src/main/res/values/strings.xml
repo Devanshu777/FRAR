@@ -60,4 +60,5 @@
     <string name="re_enter_your_password">Re-Enter Your Password</string>
     <string name="already_registered_sign_in">Already Registered ? SIGN IN</string>
     <string name="signout">SignOut</string>
+    <string name="add_image">Add Image</string>
 </resources>
