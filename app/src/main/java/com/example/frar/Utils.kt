@@ -18,11 +18,11 @@ fun View.snackbar(message: String) {
     }.show()
 }
 
-//fun ContentResolver.getFileName(uri: Uri) {
-//    var name = ""
-//    val cursor = query(uri, null, null, null, null)
-//    cursor?.use {
-//        it.moveToFirst()
-//        name = cursor.getString(it.getColumnIndex(OpenableColumns.DISPLAY_NAME))
-//    }
-//}
+fun ContentResolver.getFileName(uri: Uri) {
+    var name = ""
+    val cursor = query(uri, null, null, null, null)
+    cursor?.use {
+        it.moveToFirst()
+        name = cursor.getString(it.getColumnIndex(OpenableColumns.DISPLAY_NAME))
+    }
+}
