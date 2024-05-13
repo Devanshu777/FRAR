@@ -15,6 +15,15 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignUpBinding
     private lateinit var firebaseAuth: FirebaseAuth
 
+    @Deprecated("Deprecated in Java")
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, LogInActivity::class.java)
+        finishAffinity()
+        startActivity(intent)
+    }
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -25,6 +34,7 @@ class SignUpActivity : AppCompatActivity() {
 
         binding.textView.setOnClickListener {
             val intent = Intent(this, LogInActivity::class.java)
+            finishAffinity()
             startActivity(intent)
         }
         binding.button.setOnClickListener {
